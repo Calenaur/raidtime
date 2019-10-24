@@ -1,0 +1,111 @@
+body {
+	overflow-x: hidden;
+}
+
+.calendar {
+	margin-top: 32px;
+	background-color: #2F3136;
+}
+
+ .calendar table > thead > tr > th {
+ 	text-align: center;
+ }
+
+.calendar table > tbody > tr {
+	border-left: 1px solid rgba(0,0,0,0.12);
+}
+
+.calendar table > tbody > tr > td {
+	vertical-align: 0;
+	padding: 5px;
+	border-right: 1px solid rgba(0,0,0,0.12);
+	width: 14.285714285714285714285714285714%;
+}
+
+.calendar-cell > .day {
+	padding-right: 4px;
+	margin-bottom: 5px;
+	text-align: right;
+}
+
+.calendar-cell > .events {
+	white-space: nowrap;
+}
+
+.calendar-cell > .events > .event {
+	background-color: #2e7d32;
+	padding: 2px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 4px;
+}
+
+.calendar-cell-wrapper {
+	width: 100%;
+	position: relative; /* If you want text inside of it */
+	padding-top: 100%;
+}
+
+.calendar-cell {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.calendar-month {
+	text-align: center;
+	font-size: 38px !important;
+	line-height: 57px;
+}
+
+.calendar-month .material-icons {
+	font-size: 26px !important;
+}
+
+.calendar-month a.negative {
+	color: white;
+	background-color: transparent !important;
+	border: 1px solid white;
+}
+
+.modal-trigger {
+	color: white;
+}
+
+.modal {
+	background-color: #2F3136;
+	overflow: hidden !important;
+}
+
+.modal > div {
+	background-color: #2F3136 !important;
+}
+
+.modal > .modal-content > p  {
+	font-size: 0.8rem;
+}
+
+.modal > .modal-footer > a {
+	background-color: #e0e0e0 !important;
+}
+
+.modal > .modal-footer > a.negative {
+	color: white;
+	background-color: transparent !important;
+	border: 1px solid white;
+}
+
+.modal > .modal-content ul {
+	max-height: 140px;
+    overflow: auto;
+}
+
+.modal > .modal-content ul > li {
+	padding: 2px 4px;
+}
+.modal > .modal-content ul > li.me {
+	background-color: rgba(200,255,200,0.1);
+}

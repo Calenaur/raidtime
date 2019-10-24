@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"delve_enable": true
+	}
+}

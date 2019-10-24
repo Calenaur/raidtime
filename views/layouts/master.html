@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>{{.title}}</title>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link rel="stylesheet" href="/static/css">
+        {{template "head" .}}
+    </head>
+
+    <body>
+    	<header>
+            {{if .header}}
+        	   {{include "layouts/header"}}
+            {{end}}
+    	</header>
+
+    	<main>
+            {{if .side_nav}}
+                {{include "layouts/sidenav"}}
+            {{end}}
+	        {{template "content" .}}
+    	</main>
+
+        <footer>
+            {{if .footer}}
+        	   {{include "layouts/footer"}}
+            {{end}}
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script src="/static/javascript/default"></script>
+            {{if .side_nav}}
+                <script src="/static/javascript/sidenav"></script>
+            {{end}}
+    	</footer>
+    </body>
+</html>

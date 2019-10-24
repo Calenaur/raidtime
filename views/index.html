@@ -1,0 +1,11 @@
+{{define "head"}}
+	<link rel="stylesheet" href="static/css/index">
+{{end}}
+
+
+{{define "content"}}
+	<div class="logo" onclick="window.location.replace('{{.RedirectUri}}')">
+		<img class="bottom" src="/static/image/wow_logo" />
+		<img class="top" src="/static/image/wow_logo_inverted" />
+	</div>
+{{end}}

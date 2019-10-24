@@ -1,0 +1,24 @@
+{
+	"discord": {
+		"client_id": 			"",
+		"client_secret":		"",
+		"grant_type":			"",
+		"scope":				"",
+		"api_uri":				"",
+		"user_uri":				"",
+		"redirect_uri":			"",
+		"authorize_uri":		"",
+		"token_uri":			"",
+		"token_revoke_uri":		""
+
+	},
+	"database": {
+		"database":	"",
+		"username":	"",
+		"password":	""
+	},
+	"session": {
+		"session_duration":		0,
+		"session_secret":		""
+	}
+}

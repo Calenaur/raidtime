@@ -1,0 +1,1133 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"proce",
+				"processResponse"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"User",
+				"UserUri"
+			],
+			[
+				"Creat",
+				"CreateSignupsFromRows"
+			],
+			[
+				"sign",
+				"signups"
+			],
+			[
+				"Se",
+				"SessionDuration"
+			],
+			[
+				"ev",
+				"eventStore"
+			],
+			[
+				"eve",
+				"EventStore"
+			],
+			[
+				"fetch",
+				"fetchAccessToken"
+			],
+			[
+				"Pe",
+				"PermissionsRefer"
+			],
+			[
+				"Even",
+				"EventStore"
+			],
+			[
+				"Sig",
+				"SignupResponse"
+			],
+			[
+				"Sign",
+				"SignupType"
+			],
+			[
+				"Mana",
+				"ManageUsers"
+			],
+			[
+				"sig",
+				"Signups"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"nU",
+				"nUserId"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"vali",
+				"validateSession"
+			],
+			[
+				"val",
+				"validateSession"
+			],
+			[
+				"Val",
+				"ValidateSession"
+			],
+			[
+				"Vali",
+				"ValidateAccessToken"
+			],
+			[
+				"Ex",
+				"ExpiresIn"
+			],
+			[
+				"tok",
+				"token"
+			],
+			[
+				"token",
+				"token_type"
+			],
+			[
+				"sessio",
+				"session_token"
+			],
+			[
+				"Ref",
+				"RefreshToken"
+			],
+			[
+				"Redir",
+				"RedirectUri"
+			],
+			[
+				"Refres",
+				"RefreshAccessToken"
+			],
+			[
+				"GetD",
+				"GetDatabaseSettings"
+			],
+			[
+				"Sessi",
+				"SessionTokenExpirationTime"
+			],
+			[
+				"sha",
+				"sha512"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"Ses",
+				"SessionTokenCreationTime"
+			],
+			[
+				"Sess",
+				"SessionToken"
+			],
+			[
+				"di",
+				"Discriminator"
+			],
+			[
+				"Discord",
+				"DiscordTokenResponse"
+			],
+			[
+				"Client",
+				"ClientId"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"maxS",
+				"maxStepY"
+			],
+			[
+				"ma",
+				"maxStepX"
+			],
+			[
+				"tag",
+				"tag_bind"
+			],
+			[
+				"intre",
+				"interestPool"
+			],
+			[
+				"inter",
+				"interests"
+			],
+			[
+				"sort",
+				"sortedByPopularity"
+			],
+			[
+				"stu",
+				"students"
+			],
+			[
+				"fri",
+				"friendPool"
+			],
+			[
+				"fried",
+				"friendPool"
+			],
+			[
+				"mut",
+				"mutualFriends"
+			],
+			[
+				"st",
+				"studentN"
+			],
+			[
+				"friendS",
+				"friendships"
+			],
+			[
+				"friends",
+				"friendship"
+			],
+			[
+				"frie",
+				"friendships"
+			],
+			[
+				"ne",
+				"neighbour"
+			],
+			[
+				"nei",
+				"neighbours"
+			],
+			[
+				"com",
+				"combinations"
+			],
+			[
+				"word",
+				"wordFrequency"
+			],
+			[
+				"au",
+				"authors"
+			],
+			[
+				"py",
+				"pythonBooks"
+			],
+			[
+				"dec",
+				"decoded"
+			],
+			[
+				"d",
+				"decimalToHexadecimal"
+			],
+			[
+				"__",
+				"__init"
+			],
+			[
+				"is",
+				"is_empty"
+			],
+			[
+				"_",
+				"__elements"
+			],
+			[
+				"ro",
+				"roman_to_int"
+			],
+			[
+				"rom",
+				"rom_val"
+			],
+			[
+				"open",
+				"open_file"
+			],
+			[
+				"shi",
+				"ship_col"
+			],
+			[
+				"ship",
+				"ship_row"
+			],
+			[
+				"cap",
+				"capitalize"
+			],
+			[
+				"from",
+				"fromMinutes"
+			],
+			[
+				"_task",
+				"_task_0"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"get",
+				"getRandomAverage"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.go",
+			"settings":
+			{
+				"buffer_size": 978,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/javascript/dashboard.js",
+			"settings":
+			{
+				"buffer_size": 1091,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/dashboard.html",
+			"settings":
+			{
+				"buffer_size": 4624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "handler/signup.go",
+			"settings":
+			{
+				"buffer_size": 1577,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "store/user.go",
+			"settings":
+			{
+				"buffer_size": 5041,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1306,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Golang Build/Go.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					""
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Install"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Cross-Compile (Interactive)"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Golang Build/Go.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"cancel",
+				"Go: Cancel Build"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/css",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views"
+	],
+	"file_history":
+	[
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/store/event.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/handler.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/dashboard.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/layouts/master.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/store/user.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/dashboard.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/javascript/dashboard.js",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/authentication.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/css/dashboard.css",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/layouts/sidenav.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/event.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/main.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/config.json",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa5656.27136/raidtime/handler/dashboard.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/user.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/discorduser.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/config/config.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa5656.12741/raidtime/settings/settings.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.2763/raidtime/main.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.47510/raidtime/main.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/logout.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/signup.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/index.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/util.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/store/discord.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/router/router.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.11677/raidtime/handler/authentication.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.15532/raidtime/store/UserStore.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.13627/raidtime/model/user.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.39986/raidtime/store/UserStore.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.8818/raidtime/store/UserStore.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/db/db.go",
+		"/C/Users/Calenaur/AppData/Local/Temp/Rar$DRa9164.8818/raidtime/store/EventStore.go",
+		"/C/Users/Calenaur/Desktop/database.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/config_template.json",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/store/UserStore.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/config.ini",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/store/EventStore.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/settings/settings.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/signup.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/class.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/permission.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/user/user.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/database.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/store/ArticleStore.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/user/class.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/event/event.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/event/signup.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/css/style.css",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/user/permission.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/javascript/default.js",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/model/signup/signup.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/javascript/sidenav.js",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/layouts/header.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/layouts/footer.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/index.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/home.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/handler/auth.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/css/index.css",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/discord/discord.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/discord/user.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/discord/authenticateduser.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/models/database.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/models/user.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/context.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/index.css",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/static/style.css",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/views/layouts/default.html",
+		"/C/Users/Calenaur/Desktop/examples/basic/main.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/data/index.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/page/page.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/page/pagedata.go",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/raidtime.sublime-project",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/web/html/index.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/web/html/login/test.html",
+		"/C/Users/Calenaur/AppData/Roaming/Sublime Text 3/Packages/User/go_custom_run.sublime-build",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/html/index.html",
+		"/C/Users/Calenaur/go/src/github.com/calenaur/raidtime/router.go",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/opdracht7.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/opdracht1.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/opdracht3.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/opdracht4.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/opdracht6.py",
+		"/C/Users/Calenaur/Downloads/numbrix(1).py",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/opdracht5.py",
+		"/C/Users/Calenaur/Downloads/show_histogram_start.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/opdracht2.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/books.json",
+		"/C/Users/Calenaur/Desktop/Python/Week 4/tst.py",
+		"/C/Users/Calenaur/go/github.com/calenaur/raidtime/main.go",
+		"/D/Projects/web/calenaur.com/script.c",
+		"/C/Users/Calenaur/Desktop/Python/encode.py",
+		"/D/Projects/web/calenaur.com/chart_example.html",
+		"/C/Users/Calenaur/Downloads/BNS/simple_plot(1).py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/opdracht10.py",
+		"/C/Users/Calenaur/Desktop/ledger.txt",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/Core/UI/CraftingUI/Crafting.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/Core/UI/CraftingUI/Core.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/Core/Service/Crafting/Core.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/Core/UI/UI.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/AdvancedTradeSkillWindow/AdvancedTradeSkillWindow.toc",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/AdvancedTradeSkillWindow/ATSW.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/TradeSkillMaster.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/Core/API.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/TradeSkillMaster/Core/Service/AuctionDB/Core.lua",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WideQuestLog/WideQuestLog.lua",
+		"/C/Users/Calenaur/Desktop/WoW Client/Interface/AddOns/AdvancedTradeSkillWindow/atsw.lua",
+		"/C/Users/Calenaur/Desktop/WoW Client/Interface/AddOns/AdvancedTradeSkillWindow/atsw.xml",
+		"/C/Users/Calenaur/Desktop/WoW Client/Interface/AddOns/AdvancedTradeSkillWindow/AdvancedTradeSkillWindow.toc",
+		"/C/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WideQuestLog/WideQuestLog.toc",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/astronaut.txt",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht9.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht8.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/opdracht9.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht6.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht7.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht5.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht3.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht4.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 3/opdracht1.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/opdracht8.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/opdracht7.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/modc.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/modb.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/moda.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/main.py",
+		"/C/Users/Calenaur/Desktop/Python/Week 2/opdracht4.py"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+			"",
+			"C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Interface\\AddOns",
+			"C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Interface\\AddOns\\TradeSkillMaster",
+			"",
+			"C:\\Users\\Calenaur\\Documents\\Arma 3\\mpmissions\\antistasi.chernarus_summer",
+			"[bandera",
+			"C:\\Users\\Calenaur\\Documents\\Arma 3\\mpmissions\\antistasi.chernarus_summer",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"No signups found",
+			"now",
+			"session_creation_time",
+			"CURRENT_TIMESTAMP",
+			".Id",
+			"permission",
+			"2: ",
+			"redirecturi",
+			"Id",
+			"handler",
+			"session_token",
+			"u",
+			"token",
+			"config",
+			"user",
+			"CreateSignupsFromRows",
+			"user",
+			"Event",
+			"WillAttend",
+			"ManageEvents",
+			"ManageUsers",
+			"Id",
+			"ManageEvents",
+			"ManageUsers",
+			"Id",
+			"db.",
+			"Id",
+			"user",
+			"User",
+			"user",
+			"validate",
+			"user.Validate",
+			"db.",
+			"Id",
+			"db",
+			"uint",
+			"primary_key",
+			"Color",
+			"color",
+			"string",
+			"sqlite",
+			"NO ACTION",
+			"d",
+			"userResponse",
+			"s.",
+			"S",
+			"s",
+			"accessToken",
+			"jsonFile",
+			"uri",
+			"Uri",
+			"=",
+			":",
+			"\"",
+			"\",",
+			")",
+			"db.AutoMigrate(",
+			"EventStore",
+			"UserStore",
+			"event",
+			"JOIN class c",
+			"c",
+			"JOIN class c ON",
+			"event",
+			"User",
+			"manage_users",
+			"User{",
+			"event",
+			"Creator",
+			"User{",
+			"User",
+			"n",
+			"Permission",
+			"n",
+			"nId",
+			"User",
+			"user",
+			"accessToken",
+			"calendarDay",
+			"1px solid rgba(0,0,0,0.12);",
+			"255",
+			"user",
+			"validateSession",
+			"insertIgnore",
+			"validateCode",
+			"RefreshAccessToken",
+			"c.Cookie(\"session_token\")",
+			"IndexHandler(c)",
+			"/raidtime/views",
+			"raidtime/views",
+			"userStructure",
+			"discord.",
+			"discord",
+			"User",
+			"AuthenticatedUser",
+			"panic",
+			"r",
+			"l",
+			"'",
+			"Header",
+			"b",
+			"raw",
+			"routes",
+			"path",
+			"paths",
+			"fileList",
+			"paths",
+			"master",
+			"tk",
+			"20",
+			"clicked",
+			"canvas1",
+			"()",
+			"_delay_ms",
+			"key",
+			"550",
+			"50",
+			";",
+			"Price",
+			"row",
+			"Row",
+			"row",
+			"Profit",
+			"Rank",
+			"Profit",
+			"frame",
+			"rank",
+			"TSM does not have recent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"User"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 33,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/javascript/dashboard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/dashboard.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3559,
+								3559
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 31,
+								"count": 72,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 719.0,
+						"translation.y": 1500.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "handler/signup.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1153,
+								1153
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 42,
+								"count": 92,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "store/user.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2535,
+								2535
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 305,
+								"count": 374,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5025.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "static/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1306,
+								1306
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "css"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1575.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 86.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 205.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.golang_build":
+	{
+		"height": 163.0
+	},
+	"output.sftp":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+	"project": "raidtime.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"player",
+				"Src\\Engine\\Classes\\Player.uc"
+			],
+			[
+				"Pawn",
+				"Src\\Engine\\Classes\\Pawn.uc"
+			],
+			[
+				"mutator",
+				"Src\\Engine\\Classes\\Mutator.uc"
+			],
+			[
+				"kfmutator",
+				"Src\\KFGame\\Classes\\KFMutator.uc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Calenaur\\Desktop\\Python\\Python\\python.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

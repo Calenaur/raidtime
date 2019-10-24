@@ -1,0 +1,15 @@
+<ul id="slide-out" class="sidenav sidenav-fixed">
+	<li>
+		<div class="user-view center-align">
+			<img class="circle" src="https://cdn.discordapp.com/avatars/{{.user.ID}}/{{.user.Avatar}}.png">
+			<span class="white-text name"><span style="color:{{.user.Class.Color}};">{{.user.Username}}</span>#{{.user.Discriminator}}</span>
+			<span class="white-text name">{{.user.GuildRank}}</span>
+			{{ if gt .user.Permissions.ID 1 }}
+				<span class="white-text name">{{.user.Permissions.Name}}</span>
+			{{ end }}
+		</div>
+	</li>
+	<li><div class="divider"></div></li>
+	<li><a href="/dashboard" class="waves-effect"><i class="material-icons">dashboard</i>Dashboard</a></li>
+	<li><a href="/logout" class="waves-effect"><i class="material-icons">exit_to_app</i>Logout</a></li>
+</ul>
