@@ -24,11 +24,13 @@ func NewUserStore(db *sql.DB, cfg *config.Config) *UserStore {
 func (us *UserStore) GetByID(id int64) (*model.User, error) {
 	stmt, err := us.db.Prepare(`
 		SELECT 
-			u.id, u.username, u.discriminator, u.avatar, u.guild_rank,
+			u.id, u.username, u.discriminator, u.avatar,
 			c.id, c.name, c.color,
+			gr.id, gr.name, gr.protected,
 			p.id, p.name, p.manage_users, p.manage_events
 		FROM user u
 		JOIN class c ON u.class = c.id
+		JOIN guild_rank gr ON u.guild_rank = gr.id
 		JOIN permissions p ON u.permissions = p.id
 		WHERE u.id = ?
 	`)
@@ -49,11 +51,13 @@ func (us *UserStore) GetByID(id int64) (*model.User, error) {
 func (us *UserStore) GetBySession(session string) (*model.User, error) {
 	stmt, err := us.db.Prepare(`
 		SELECT 
-			u.id, u.username, u.discriminator, u.avatar, u.guild_rank,
+			u.id, u.username, u.discriminator, u.avatar,
 			c.id, c.name, c.color,
+			gr.id, gr.name, gr.protected,
 			p.id, p.name, p.manage_users, p.manage_events
 		FROM user u
 		JOIN class c ON u.class = c.id
+		JOIN guild_rank gr ON u.guild_rank = gr.id
 		JOIN permissions p ON u.permissions = p.id
 		WHERE session=? AND UNIX_TIMESTAMP(session_creation_time) + ? > UNIX_TIMESTAMP()
 	`)
@@ -213,9 +217,11 @@ func (us *UserStore) CreateUserFromRow(row *sql.Row) (*model.User, error) {
 	var (
 		manageUsers byte
 		manageEvents byte
+		protected byte
 	)
 	user := &model.User{
 		Class: &model.Class{},
+		GuildRank: &model.GuildRank{},
 		Permissions: &model.Permissions{},
 	}
 	err := row.Scan(
@@ -223,10 +229,12 @@ func (us *UserStore) CreateUserFromRow(row *sql.Row) (*model.User, error) {
 		&user.Username, 
 		&user.Discriminator, 
 		&user.Avatar,
-		&user.GuildRank,
 		&user.Class.ID,
 		&user.Class.Name,
 		&user.Class.Color,
+		&user.GuildRank.ID,
+		&user.GuildRank.Name,
+		&protected,
 		&user.Permissions.ID, 
 		&user.Permissions.Name, 
 		&manageUsers, 
@@ -236,6 +244,7 @@ func (us *UserStore) CreateUserFromRow(row *sql.Row) (*model.User, error) {
 		return nil, err
 	}
 
+	user.GuildRank.Protected = protected == 1
 	user.Permissions.ManageUsers = manageUsers == 1
 	user.Permissions.ManageEvents = manageEvents == 1
 	return user, nil

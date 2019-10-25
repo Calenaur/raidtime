@@ -37,6 +37,7 @@ body {
 	padding: 2px 4px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 	margin-bottom: 4px;
+	cursor: pointer;
 }
 
 .calendar-cell-wrapper {
@@ -80,6 +81,10 @@ body {
 	overflow: hidden !important;
 }
 
+.modal > .modal-content {
+	color: white;
+}
+
 .modal > div {
 	background-color: #2F3136 !important;
 }
@@ -88,18 +93,18 @@ body {
 	font-size: 0.8rem;
 }
 
-.modal > .modal-footer > a {
+.modal > .modal-footer a {
 	background-color: #e0e0e0 !important;
 }
 
-.modal > .modal-footer > a.negative {
+.modal > .modal-footer a.negative {
 	color: white;
 	background-color: transparent !important;
 	border: 1px solid white;
 }
 
 .modal > .modal-content ul {
-	max-height: 140px;
+	max-height: 300px;
     overflow: auto;
 }
 
@@ -108,4 +113,8 @@ body {
 }
 .modal > .modal-content ul > li.me {
 	background-color: rgba(200,255,200,0.1);
+}
+
+tr.hidden-week {
+	display: none !important;
 }

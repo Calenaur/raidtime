@@ -3,7 +3,7 @@
 		<div class="user-view center-align">
 			<img class="circle" src="https://cdn.discordapp.com/avatars/{{.user.ID}}/{{.user.Avatar}}.png">
 			<span class="white-text name"><span style="color:{{.user.Class.Color}};">{{.user.Username}}</span>#{{.user.Discriminator}}</span>
-			<span class="white-text name">{{.user.GuildRank}}</span>
+			<span class="white-text name">{{.user.GuildRank.Name}}</span>
 			{{ if gt .user.Permissions.ID 1 }}
 				<span class="white-text name">{{.user.Permissions.Name}}</span>
 			{{ end }}

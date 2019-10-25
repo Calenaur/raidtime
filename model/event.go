@@ -5,29 +5,28 @@ import (
 )
 
 type Event struct {
-	ID int 			
-	Name string 	
-	Date time.Time 	
-	Color *Color 	
-	Creator *User 	
-	Signups []*Signup 
+	ID int 					`json:"id"`		
+	Name string 			`json:"name"` 	
+	Date time.Time 			`json:"date"` 	
+	Color *Color 			`json:"tag"` 	
+	Creator *User 			`json:"creator"` 	
+	Signups []*Signup 		`json:"signups"` 
 }
 
 type Color struct {
-	ID int
-	Name string
-	Color string
+	ID int 					`json:"-"`
+	Name string 			`json:"-"`
+	Color string 			`json:"color"`
 }
 
 type Signup struct {
-	Event *Event
-	User *User
-	SignupType *SignupType
-	Date time.Time
+	User *User 				`json:"user"`
+	SignupType *SignupType 	`json:"reason"`
+	Date time.Time 			`json:"date"`
 }
 
 type SignupType struct {
-	ID int
-	WillAttend bool
-	Description string
+	ID int 					`json:"-"`
+	WillAttend bool 		`json:"will_attend"`
+	Description string 		`json:"description"`
 }

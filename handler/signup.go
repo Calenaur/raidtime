@@ -1,20 +1,17 @@
 package handler
 
 import (
+	"strconv"
 	"net/http"
 	"github.com/labstack/echo"
-	"strconv"
+	"github.com/calenaur/raidtime/model"
 )
 
-const CODE_OK = 200
-const CODE_ERROR_INVALID_ARGUMENTS = 400
-const CODE_ERROR_NO_SESSION = 401
-const CODE_ERROR_NO_SIGNUP = 402
-
 type SignupResponse struct {
-	Code int 			`json:"code"`
-	Status string 		`json:"status"`
-	Error string 		`json:"error"`
+	Code int 				`json:"code"`
+	Signup *model.Signup 	`json:"signup,omitempty"`
+	Status string 			`json:"status,omitempty"`
+	Error string 			`json:"error,omitempty"`
 }
 
 func (h *Handler) SignupHandler(c echo.Context) error {
@@ -56,6 +53,7 @@ func (h *Handler) SignupHandler(c echo.Context) error {
 			response.Error = "Invalid arguments"
 			return c.JSON(http.StatusOK, response)
 		}
+		response.Signup, _ = h.es.GetSignupByIDs(event, user.ID)
 	}
 
 	response.Code = CODE_OK

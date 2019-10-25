@@ -7,6 +7,12 @@ import (
 	"github.com/calenaur/raidtime/config"
 )
 
+const CODE_OK = 200
+const CODE_ERROR_INVALID_ARGUMENTS = 400
+const CODE_ERROR_NO_SESSION = 401
+const CODE_ERROR_NO_SIGNUP = 402
+const CODE_ERROR_INTERNAL_SERVER_ERROR = 500
+
 type Handler struct {
 	us *store.UserStore
 	es *store.EventStore
@@ -28,7 +34,7 @@ func (h *Handler) RegisterRoutes(e *echo.Echo) {
 	e.GET("/", h.IndexHandler)
 	e.GET("/auth", h.AuthenticationHandler)
 	e.GET("/dashboard", h.DashboardHandler)
-	e.GET("/dashboard/:month", h.DashboardHandler)
+	e.GET("/calendar/:offset", h.CalendarHandler)
 	e.GET("/signup/:event/:type", h.SignupHandler)
 	e.GET("/signup/cancel/:event/:type", h.SignupHandler)
 	e.GET("/logout", h.LogoutHandler)
